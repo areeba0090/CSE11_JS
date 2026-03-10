@@ -54,5 +54,20 @@ function myFunction() {
 //without parameters
 function sayHello(name,age) 
 {
-    document.write(name+is"+"+age+"years old.");
+    document.write(name+"is"+age+"years old.");
 }
+//Function return
+var res=multiply(12,30);
+function multiply(x,y)
+{
+    return x*y;
+}
+document.write(res);
+// Arrow Function or Function in a variable
+var add2=(a,b)=> {
+    document.write(a+b);
+}
+add2(102,20);
+// arrow function for a single line parameters 
+var add3=(a,b)=>document.write.log(a+b);
+add3(30,20);

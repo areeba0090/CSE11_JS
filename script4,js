@@ -1,0 +1,7 @@
+var myinfo=new Array();
+var myinfo1=Array();
+console.log(myinfo,myinfo1);
+var trainerinfo=["Areeba",18,"Najibabad"];
+console.log(trainerinfo.length);
+
+
