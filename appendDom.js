@@ -7,5 +7,5 @@ bodytag[0].append(heading);
 heading.innerText="hello";
 heading.style.backgroundColor="red";
 
-//Events in JavaScript
+
 
